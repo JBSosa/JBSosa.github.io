@@ -1,0 +1,33 @@
+pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+}
+h1 {
+  font-size: 150%;
+}
+h2 {
+  font-size: 100%;
+}
+.justificar {
+  text-align: justify;
+}
+.pad075 {
+  padding-left: 0.75in;
+}
+.pad1 {
+  padding-left: 1in;
+}
+.contenido {
+  background-color:rgb(255, 255, 255);
+  padding: 1in;
+  margin: 0 auto;
+  width: 8.5in;
+}
+.containerImage {
+  background-image: url('https://giffiles.alphacoders.com/209/209750.gif'), url('https://giffiles.alphacoders.com/209/209750.gif');
+  background-position: top left, top right;
+  background-repeat: repeat-y, repeat-y;
+  background-size: 440px;
+  background-color: black;
+  padding: 0%;
+}
