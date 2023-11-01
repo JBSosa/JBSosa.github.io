@@ -4,6 +4,7 @@ pre {
 }
 h1 {
   font-size: 150%;
+  margin-top: -10px;
 }
 h2 {
   font-size: 100%;
@@ -14,23 +15,28 @@ h2 {
 .justificar {
   text-align: justify;
 }
+.pad025 {
+  margin-left: 0.25in;
+}
 .pad075 {
-  padding-left: 0.75in;
+  margin-left: 0.75in;
 }
 .pad1 {
-  padding-left: 1in;
+  margin-left: 1in;
+  margin-top: .3cm;
+  margin-bottom: .3cm;
 }
 .contenido {
   background-color:rgb(255, 255, 255);
-  padding: 1in;
+  padding: 5%;
   margin: 0 auto;
-  width: 8.5in;
+  width: 40%;
 }
-.containerImage {
-  background-image: url('https://giffiles.alphacoders.com/209/209750.gif'), url('https://giffiles.alphacoders.com/209/209750.gif');
-  background-position: top left, top right;
+.containerImage1 {
+  background-image: url('https://giffiles.alphacoders.com/209/209750.gif'), url('https://giffiles.alphacoders.com/209/209750.gif'); 
+  background-position: top left , top right;
   background-repeat: repeat-y, repeat-y;
-  background-size: 440px;
+  background-size: 25%;
   background-color: black;
-  padding: 0%;
+  margin:-10px;
 }
