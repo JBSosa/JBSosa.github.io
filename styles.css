@@ -6,10 +6,19 @@ h1 {
   font-size: 150%;
   margin-top: -10px;
 }
+.image-profile{
+  border-radius: 100%;
+  width: 75px;
+  position: fixed;
+  border-style: solid;
+}
+.image-profile:hover{
+  width: 200px;
+}
 h2 {
   font-size: 100%;
 }
-.derecha {
+.profile-description {
   text-align: right;
 }
 .justificar {
@@ -39,4 +48,7 @@ h2 {
   background-size: 25%;
   background-color: black;
   margin:-10px;
+}
+.skills{
+  padding-left: 20px;
 }
